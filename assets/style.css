@@ -53,6 +53,10 @@ header ul {
     margin-bottom: 14px;
 }
 
+.links {
+    width: 100%;
+    height: auto;
+}
 
 /* Home Content*/
 
@@ -221,6 +225,57 @@ textarea {
     margin-top: 3%;
 }
 
+
+/*footer*/
+
+.links {
+    margin: 0 auto;
+    padding-left: 30%;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+ion-icon, .icon-wrapper a {
+    width: 60px;
+    height: 60px;
+    margin: 0 4%;
+}
+
+ion-icon:hover{
+    /*background-color: white;*/
+    background-size: contain;
+}
+
+
+#youtube:hover {
+    color: #ff0000;
+    background-color: white;
+    transition: .7s;
+}
+
+#facebook:hover {
+    color: #4267B2;
+    transition: .7s;
+
+}
+
+#linkedin:hover {
+    color: #0e76a8;
+    transition: .7s;
+}
+
+#github:hover{
+    color: #0e76a8;
+    transition: .7s;
+
+}
+
+
+
 /* Media Queries*/
 
 @media screen and (max-width: 720px) {
@@ -263,5 +318,9 @@ textarea {
     .divider {
         width: 0;
         height: 0;
+    }
+
+    .links {
+        padding: 4%;
     }
 }
